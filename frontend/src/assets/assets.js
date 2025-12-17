@@ -1,9 +1,13 @@
 import logo from './logo.png';
 import video_banner from './home-page-banner.mp4'
+import people_org from './people-org.png'
+import people from './people.png'
 
 export const assets={
     logo,
-    video_banner
+    video_banner,
+    people_org,
+    people
 }
 
 export const steps=[{
@@ -31,4 +35,6 @@ export const steps=[{
     You can also save your picture in the Photoroom App by creating an  account`
 
 }
-]
+];
+
+export const catagories=["People","Products","Animals","Cars","Graphics"];
