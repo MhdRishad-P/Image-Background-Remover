@@ -2,6 +2,10 @@ import logo from './logo.png';
 import video_banner from './home-page-banner.mp4'
 import people_org from './people-org.png'
 import people from './people.png'
+import instagram from './instagram.png'
+import linkedin from './linkedin.png'
+import facebook from './facebook.png'
+import twitter from './twitter.png'
 
 export const assets={
     logo,
@@ -79,4 +83,19 @@ export const tesimonials=[{
     quote:"We were impressed  by its ability  to account for pesky , feathery hair without making an image look jagged  and ",
     author:"Micheal Chen",
     handle:"@coding_newbie"
+}]
+
+export const footerConstants=[{
+    url:"https://facebook.com",
+    logo:facebook
+},{
+    url:"https://linkedin.com",
+    logo:linkedin
+},{
+    url:"https://instagram.com",
+    logo:instagram
+    
+},{
+    url:"https://twitter.com",
+    logo:twitter
 }]
