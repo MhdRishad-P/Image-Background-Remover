@@ -6,12 +6,14 @@ import instagram from './instagram.png'
 import linkedin from './linkedin.png'
 import facebook from './facebook.png'
 import twitter from './twitter.png'
+import credits from './dollar.png'
 
 export const assets={
     logo,
     video_banner,
     people_org,
-    people
+    people,
+    credits
 }
 
 export const steps=[{
